@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/slider/favicon.png" type="image/x-icon">
     <title>Biker Zone</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,9 +30,33 @@
         }
     </script>
 </head>
-
 <body class="font-poppins">
-
+    <header class="bg-[#264653] pt-3 pb-6">
+        <!-- navbar  -->
+        <nav class="max-w-6xl mx-auto py-2 px-3 md:px-6 border-b-2 border-white md:border-0 text-right  ">
+            <ul class="hidden  md:flex lg:flex items-center justify-end md:gap-12 lg:gap-20 " >
+                <li><a class="text-white font-semibold" href="#">Home</a></li>
+                <li><a class="text-white font-semibold" href="#">Shop</a></li>
+                <li><a class="text-white font-semibold" href="#">News</a></li>
+                <li><a class="text-white font-semibold" href="#">Contact</a></li>
+                <li><a class="text-white font-semibold" href="#"><button class="bg-orange-500 px-6 py-3 rounded-md">Login</button></a></li>
+            </ul>
+            <div class="md:hidden lg:hidden"><i class="fa-solid fa-bars text-white text-2xl "></i></div>
+        </nav>
+        <!-- banner  -->
+         <div class=" max-w-6xl mx-auto px-4 lg:px-0 lg:py-10 mt-4 md:flex items-center justify-between">
+            <!-- text content  -->
+             <div class="md:w-1/2">
+                <p class="text-[#E0E0E0] mb-3 md:text-sm lg:text-xl">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-white text-3xl md:text-2xl lg:text-6xl font-semibold mb-3">Honda CBR 300R</h1>
+                <p class="text-[#E0E0E0] mb-5 md:text-sm lg:text-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="bg-orange-600 rounded-md px-8 py-3 md:px-6 lg:px-12 text-white font-bold">Purchase</button>
+             </div>
+             <!-- img content  -->
+              <div class="mt-6 lg:w-1/2">
+                <img class="w-full " src="images/slider/bike3.png" alt="">
+              </div>
+         </div>
+    </header>
 </body>
-
 </html>
